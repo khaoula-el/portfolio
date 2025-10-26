@@ -3,48 +3,469 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Khaoula El Aidi</title>
+  <title>Portfolio - Khaoula El Aidi | Data Science & Cloud Computing</title>
+  <meta name="description" content="Portfolio de Khaoula El Aidi, Ingénieure en Data Science & Cloud Computing spécialisée en IA, Big Data et solutions cloud innovantes.">
+  <meta name="author" content="Khaoula El Aidi">
+  <meta name="keywords" content="Data Science, Cloud Computing, IA, Machine Learning, Python, AWS, Portfolio">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+
+  <!-- HEADER / HERO -->
   <header>
-    <h1>Khaoula El Aidi</h1>
-    <p>Ingénieure en Data Science & Cloud Computing</p>
-    <nav>
-      <ul>
-        <li><a href="#about">À propos</a></li>
-        <li><a href="#projects">Projets</a></li>
-        <li><a href="#skills">Compétences</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="hero">
+      <div class="hero-content">
+      <h1>Khaoula El Aidi</h1>
+        <p class="hero-subtitle">
+          <i class="fas fa-brain"></i>
+          Ingénieure en Data Science & Cloud Computing
+        </p>
+        <p class="hero-description">
+          Passionnée par l'IA, le Big Data et les solutions cloud innovantes
+        </p>
+      </div>
+      <nav role="navigation" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#about" aria-label="Aller à la section À propos"><i class="fas fa-user" aria-hidden="true"></i> À propos</a></li>
+          <li><a href="#experience" aria-label="Aller à la section Expériences"><i class="fas fa-briefcase" aria-hidden="true"></i> Expériences</a></li>
+          <li><a href="#projects" aria-label="Aller à la section Projets"><i class="fas fa-code" aria-hidden="true"></i> Projets</a></li>
+          <li><a href="#skills" aria-label="Aller à la section Compétences"><i class="fas fa-cogs" aria-hidden="true"></i> Compétences</a></li>
+          <li><a href="#education" aria-label="Aller à la section Formation"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Formation</a></li>
+          <li><a href="#contact" aria-label="Aller à la section Contact"><i class="fas fa-envelope" aria-hidden="true"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
+  <!-- MAIN -->
   <main>
-    <section id="about">
-      <h2>À propos</h2>
-      <p>Jeune ingénieure passionnée par l’IA, le Big Data et les solutions cloud innovantes.</p>
+
+    <!-- À PROPOS -->
+    <section id="about" class="fade-in" role="region" aria-labelledby="about-heading">
+      <h2 id="about-heading"><i class="fas fa-user" aria-hidden="true"></i> À propos</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Jeune ingénieure 
+            passionnée par la Data Science, le Big Data et l’Intelligence Artificielle, je m’intéresse particulièrement à la création de solutions intelligentes combinant analyse de données, apprentissage automatique et déploiement cloud. Mon objectif est de transformer les données en leviers de performance et d’innovation, tout en explorant les nouvelles frontières de l’IA générative et du traitement intelligent de l’information.
+          </p>
+          <div class="stats">
+            <div class="stat">
+              <i class="fas fa-code"></i>
+              <span>Débutante</span>
+            </div>
+            <div class="stat">
+              <i class="fas fa-project-diagram"></i>
+              <span>12+ projets</span>
+              <small>réalisés</small>
+            </div>
+            <div class="stat">
+              <i class="fas fa-language"></i>
+              <span>6 langages</span>
+              <small>maîtrisés</small>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="projects">
-      <h2>Projets</h2>
-      <ul>
-        <li><strong>Optimisation logistique – Walmart :</strong> Analyse prédictive pour la gestion des stocks.</li>
-        <li><strong>Wake Word Detection :</strong> Modèle CNN en temps réel.</li>
-        <li><strong>Smart Moroccan Cuisine Chatbot :</strong> Chatbot culinaire intelligent connecté à une base de données.</li>
-      </ul>
+    <!-- EXPERIENCES -->
+    <section id="experience" class="fade-in">
+      <h2><i class="fas fa-briefcase"></i> Expériences Professionnelles</h2>
+      <div class="cards-container">
+        <div class="card experience-card">
+          <div class="card-header">
+            <i class="fas fa-industry"></i>
+            <div class="card-title">
+          <h3>Data Scientist – Projet de Recherche en IA</h3>
+              <span class="card-period">Février 2025 - Juillet 2025</span>
+            </div>
+          </div>
+          <div class="experience-details">
+            <p><strong>Safran Engineering Services | Stage de fin d'études</strong></p>
+            <p><i class="fas fa-map-marker-alt"></i> Casablanca, Maroc</p>
+            <div class="achievements">
+              <h4>Réalisations clés :</h4>
+              <ul>
+                <li>Développement d'une IA générative pour automatiser la conception de pièces via un pipeline d'entraînement et de fine-tuning de modèles générant du code VBA CATIA</li>
+                <li>Création d'un outil pour le traitement des dérogations : automatisation du processus de génération des fiches justificatives des pièces KIT Engine</li>
+                <li>Gestion de projet avec la méthodologie Scrum, en utilisant des outils collaboratifs tels que Microsoft Teams et Trello</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tech-stack">
+            <span class="tech-tag">Gen AI</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Transformers</span>
+            <span class="tech-tag">LLM</span>
+            <span class="tech-tag">NLP</span>
+            <span class="tech-tag">RAG</span>
+            <span class="tech-tag">PEFT</span>
+            <span class="tech-tag">PyTorch</span>
+            <span class="tech-tag">CATIA V5</span>
+            <span class="tech-tag">Gradio</span>
+          </div>
+          <button class="project-details-btn animated-btn" onclick="showProjectDetails('safran-project')">
+            <i class="fas fa-bullseye bounce-icon"></i> 
+            <span>Voir les Résultats</span>
+            <i class="fas fa-arrow-right pulse-icon"></i>
+          </button>
+        </div>
+        <div class="card experience-card">
+          <div class="card-header">
+            <i class="fas fa-chart-line"></i>
+            <div class="card-title">
+              <h3>Étude et Mise en Œuvre des Algorithmes d'Optimisation</h3>
+              <span class="card-period">Février 2024 - Juin 2025</span>
+            </div>
+          </div>
+          <div class="experience-details">
+            <p><strong>ENSA Oujda | Stage PFA</strong></p>
+            <p><i class="fas fa-map-marker-alt"></i> Oujda, Maroc</p>
+            <div class="achievements">
+              <h4>Réalisations clés :</h4>
+              <ul>
+                <li>Exploration, implémentation et évaluation des algorithmes d'optimisation (AG, RS, PSO) appliqués à des cas pratiques</li>
+                <li>Optimisation de réseaux de neurones (ANN), résolution du problème du voyageur de commerce (TSP) et du sac à dos</li>
+                <li>Prétraitement et analyse des données : nettoyage, normalisation, standardisation et visualisation</li>
+              </ul>
+            </div>
+        </div>
+          <div class="tech-stack">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">TensorFlow</span>
+            <span class="tech-tag">NumPy</span>
+            <span class="tech-tag">Scikit-learn</span>
+            <span class="tech-tag">Matplotlib</span>
+            <span class="tech-tag">SciPy</span>
+            <span class="tech-tag">Scrum</span>
+        </div>
+        </div>
+      </div>
     </section>
 
-    <section id="skills">
-      <h2>Compétences</h2>
-      <p>Python, SQL, Spark, Docker, Kafka, Machine Learning, Deep Learning, Cloud (AWS, GCP).</p>
+    <!-- PROJETS -->
+    <section id="projects" class="fade-in">
+      <h2><i class="fas fa-code"></i> Projets</h2>
+      <div class="cards-container">
+        <div class="card project-card">
+          <div class="project-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Tableau de Bord d'Analyse en Temps Réel</h3>
+          <p>Développement d'un système de monitoring et d'analyse de données en temps réel avec Apache Spark et Kafka pour le traitement de flux de données massives.</p>
+          <div class="tech-stack">
+            <span class="tech-tag">Apache Kafka</span>
+            <span class="tech-tag">Apache Spark</span>
+            <span class="tech-tag">PySpark</span>
+            <span class="tech-tag">Big Data</span>
+            <span class="tech-tag">Machine Learning</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">Power BI</span>
+            <span class="tech-tag">Dash</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Voir le projet</a>
+          </div>
+        </div>
+        <div class="card project-card">
+          <div class="project-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3>Amélioration de la Qualité des Données Séquentielles</h3>
+          <p>Techniques de Deep Learning pour l'analyse et la correction automatique des données séquentielles avec implémentation d'algorithmes avancés.</p>
+          <div class="tech-stack">
+            <span class="tech-tag">Deep Learning</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">TensorFlow</span>
+            <span class="tech-tag">Keras</span>
+            <span class="tech-tag">NumPy</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">Matplotlib</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Voir le projet</a>
+          </div>
+        </div>
+        <div class="card project-card">
+          <div class="project-icon">
+            <i class="fas fa-microphone"></i>
+          </div>
+          <h3>Détection de Wake Word</h3>
+          <p>Développement d'un système de détection de mots-clés en temps réel utilisant des réseaux de neurones convolutifs (CNN) et TensorFlow Lite.</p>
+          <div class="tech-stack">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">TensorFlow</span>
+            <span class="tech-tag">TensorFlow Lite</span>
+            <span class="tech-tag">PyAudio</span>
+            <span class="tech-tag">Librosa</span>
+            <span class="tech-tag">CNN</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Voir le projet</a>
+          </div>
+        </div>
+        <div class="card project-card">
+          <div class="project-icon">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <h3>Architecture Microservices Scalable</h3>
+          <p>Création d'une architecture microservices résiliente avec AWS et mise en place d'un pipeline CI/CD automatisé pour déploiement blue/green.</p>
+          <div class="tech-stack">
+            <span class="tech-tag">AWS Cloud9</span>
+            <span class="tech-tag">Amazon ECS</span>
+            <span class="tech-tag">CI/CD</span>
+            <span class="tech-tag">Amazon RDS</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">Microservices</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Voir le projet</a>
+          </div>
+        </div>
+        <div class="card project-card">
+          <div class="project-icon">
+            <i class="fas fa-tint"></i>
+          </div>
+          <h3>Système IoT de Suivi de Consommation d'Eau</h3>
+          <p>Développement d'un système IoT complet avec analyse de données en temps réel pour le monitoring de la consommation d'eau.</p>
+          <div class="tech-stack">
+            <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">ESP32</span>
+            <span class="tech-tag">HX711</span>
+            <span class="tech-tag">MPU6050</span>
+            <span class="tech-tag">Arduino IDE</span>
+            <span class="tech-tag">Flask</span>
+            <span class="tech-tag">IoT</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Voir le projet</a>
+          </div>
+        </div>
+        <div class="card project-card">
+          <div class="project-icon">
+            <i class="fas fa-eye"></i>
+          </div>
+          <h3>Réseau de Neurones pour Reconnaissance de Caractères</h3>
+          <p>Création d'un réseau de neurones pour la reconnaissance d'images de caractères avec un nombre variable de couches cachées et neurones optimisés.</p>
+          <div class="tech-stack">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">TensorFlow</span>
+            <span class="tech-tag">Keras</span>
+            <span class="tech-tag">OpenCV</span>
+            <span class="tech-tag">NumPy</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">ANN</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Voir le projet</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Modal pour les résultats Safran -->
+    <div id="modal-safran-project" class="project-modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeProjectModal('safran-project')">&times;</span>
+        <div class="modal-header-animated">
+          <h2>🎯 Résultats du Projet </h2>
+          <div class="sparkle-effect">✨</div>
+        </div>
+        <div class="modal-body">
+          <div class="modal-highlights">
+            <p class="fade-in-item"><i class="fas fa-check-circle success-icon"></i> Automatisation de la conception de pièces mécaniques grâce à une IA générative</p>
+            <p class="fade-in-item"><i class="fas fa-check-circle success-icon"></i> Réduction significative du temps de modélisation manuelle dans CATIA</p>
+            <p class="fade-in-item"><i class="fas fa-check-circle success-icon"></i> Génération automatique de code VBA CATIA à partir de spécifications techniques</p>
+            <p class="fade-in-item"><i class="fas fa-check-circle success-icon"></i> Amélioration de la précision et de la productivité du processus de conception</p>
+            <p class="fade-in-item"><i class="fas fa-check-circle success-icon"></i> Développement d'une application web interactive facilitant l'expérience utilisateur et l'accès aux fonctionnalités de génération automatique</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- COMPETENCES -->
+    <section id="skills" class="fade-in">
+      <h2><i class="fas fa-cogs"></i> Compétences</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Langages de Programmation</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">R</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">JEE</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-brain"></i> Machine Learning & IA</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">Scikit-learn</span>
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Keras</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">Matplotlib</span>
+            <span class="skill-tag">IA générative</span>
+            <span class="skill-tag">NLP</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-project-diagram"></i> Réseaux de Neurones</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">ANN</span>
+            <span class="skill-tag">CNN</span>
+            <span class="skill-tag">RNN</span>
+            <span class="skill-tag">LSTM</span>
+            <span class="skill-tag">GRU</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-cloud"></i> Cloud Computing</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Kubernetes</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Firebase</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-database"></i> Big Data</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Hadoop</span>
+            <span class="skill-tag">Kafka</span>
+            <span class="skill-tag">Scala</span>
+            <span class="skill-tag">Spark</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-chart-bar"></i> Business Intelligence</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Data Visualization</span>
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">DataWarehousing</span>
+            <span class="skill-tag">ETL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-server"></i> Bases de Données</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Cassandra</span>
+            <span class="skill-tag">Redis</span>
+            <span class="skill-tag">MySQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-globe"></i> Web & API</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Flask</span>
+            <span class="skill-tag">Streamlit</span>
+            <span class="skill-tag">Gradio</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-desktop"></i> Systèmes d'Exploitation</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Windows</span>
+            <span class="skill-tag">Unix</span>
+            <span class="skill-tag">Linux</span>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email : khaoula.el.aidi@example.com</p>
-      <p>LinkedIn : <a href="https://linkedin.com/in/khaoula-el-aidi" target="_blank">linkedin.com/in/khaoula-el-aidi</a></p>
+    <!-- FORMATION -->
+    <section id="education" class="fade-in">
+      <h2><i class="fas fa-graduation-cap"></i> Formation</h2>
+      <div class="education-timeline">
+        <div class="education-item">
+          <div class="education-icon">
+            <i class="fas fa-university"></i>
+          </div>
+          <div class="education-content">
+            <h3>Ingénieure d'État – Data Science & Cloud Computing</h3>
+            <p class="education-school">ENSA Oujda | Université Mohammed Premier</p>
+            <p class="education-period">Octobre 2023 - Juillet 2025</p>
+            <p class="education-description">Formation spécialisée en intelligence artificielle, big data et architectures cloud.</p>
+          </div>
+        </div>
+        <div class="education-item">
+          <div class="education-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="education-content">
+            <h3>Licence en Mathématiques et Informatique</h3>
+            <p class="education-school">Faculté des Sciences Oujda | Université Mohammed Premier</p>
+            <p class="education-period">Septembre 2021 - Juin 2023</p>
+            <p class="education-description">Formation fondamentale en mathématiques appliquées et informatique.</p>
+          </div>
+        </div>
+        <div class="education-item">
+          <div class="education-icon">
+            <i class="fas fa-school"></i>
+          </div>
+          <div class="education-content">
+            <h3>Baccalauréat Sciences Mathématiques</h3>
+            <p class="education-school">Lycée El Mariniyen Taourirt</p>
+            <p class="education-period">Septembre 2020 - Juin 2021</p>
+            <p class="education-description">Mention Très Bien</p>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="fade-in">
+      <h2><i class="fas fa-envelope"></i> Contact</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <a href="mailto:Khaoulaelaidi4@gmail.com">Khaoulaelaidi4@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h3>Téléphone</h3>
+              <a href="tel:+212705116003">+212 705 11 60 03</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <div>
+              <h3>LinkedIn</h3>
+              <a href="https://linkedin.com/in/khaoula-el-aidi-a22035295" target="_blank">linkedin.com/in/khaoula-el-aidi</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Localisation</h3>
+              <p>Taourirt, Maroc</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-cta">
+          <h3>Prêt à collaborer ?</h3>
+          <p>Je suis toujours intéressée par de nouveaux projets et opportunités. N'hésitez pas à me contacter !</p>
+          <a href="mailto:Khaoulaelaidi4@gmail.com" class="cta-button">
+            <i class="fas fa-paper-plane"></i>
+            Envoyer un message
+          </a>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer>
